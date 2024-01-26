@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <style>
+        /* Add your CSS styles for the hotel module here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        .hotel {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .hotel h2 {
+            color: #333;
+        }
+        .hotel p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Available Hotels</h1>
+    </header>
+    <div class="hotel">
+        <h2>The Ritz-Carlton</h2>
+        <p>Luxury and elegance await you at The Ritz-Carlton. Enjoy world-class amenities and stunning views.</p>
+    </div>
+    <div class="hotel">
+        <h2>Hotel Sakura</h2>
+        <p>Experience Japanese hospitality at its finest at Hotel Sakura. Comfort and convenience in the heart of Tokyo.</p>
+    </div>
+    <!-- Add more hotels as needed -->
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Brochure</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('travel.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Add a semi-transparent overlay */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3); /* Adjust the alpha value (0.3) to control the overlay opacity */
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 50px;
+        }
+        header h1 {
+            font-size: 40px;
+            font-style: italic;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+            font-size: 24px;
+        }
+        .holidays {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 40px;
+        }
+        .special-offers {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 40px;
+        }
+        .travel-packages {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 40px;
+        }
+        .best-selling {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div> <!-- Semi-transparent overlay div -->
+    <header>
+        <h1>Voyage Vista</h1>
+    </header>
+    <nav>
+        <a href="#holidays">Holidays</a>
+        <a href="#special-offers">Special Offers</a>
+        <a href="#travel-packages">Travel Packages</a>
+        <a href="#best-selling">Best Selling</a>
+    </nav>
+    <section id="holidays">
+        <h2>Holidays</h2>
+        <div class="holidays">
+            <!-- Content for Holidays -->
+        </div>
+    </section>
+    <section id="special-offers">
+        <h2>Special Offers</h2>
+        <div class="special-offers">
+            <!-- Content for Special Offers -->
+        </div>
+    </section>
+    <section id="travel-packages">
+        <h2>Travel Packages</h2>
+        <div class="travel-packages">
+            <!-- Content for Travel Packages -->
+        </div>
+    </section>
+    <section id="best-selling">
+        <h2>Best Selling</h2>
+        <div class="best-selling">
+            <!-- Content for Best Selling -->
+        </div>
+    </section>
+</body>
+</html>
+

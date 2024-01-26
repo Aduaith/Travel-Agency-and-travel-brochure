@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage Vista - Your Trusted Travel Companion</title>
+    <style>
+        /* Add your CSS styles here */
+        /* Add a semi-transparent overlay */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3); /* Adjust the alpha value (0.3) to control the overlay opacity */
+        }
+
+        body {
+            font-family: "Arial, sans-serif";
+            font-size: 38px; /* Adjust the font size as needed */
+            background-color: #f5f5f5; /* Add a light background color */
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 90px;
+        }
+
+        header h1 {
+            font-size: 70px;
+            font-style: italic;
+        }
+
+        header h2 {
+            font-size: 100px;
+            font-style: italic;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+            color: white;
+            font-size: 60px; /* Adjust the font size as needed */
+        }
+
+        .section {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 60px; /* Adjust the font size as needed */
+            background-color: #fff; /* Add a white background color */
+        }
+
+        .user-info {
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            color: #fff;
+            font-size: 36px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Voyage Vista</h1>
+        <h2>Your Trusted Travel Companion</h2>
+        <h3>TRAVEL AGENCY WEBSITE</h3>
+    </header>
+    <nav>
+        <a href="package.html">Travel Packages</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="hotel.html">Hotels</a>
+        <a href="flights.html">Flights</a>
+        <a href="register1.html">Register</a>
+        <a href="contact.html">Contact</a>
+        <a href="booking.html">Booking</a>
+        <a href="insurance.html">Travel Insurance</a>
+        <a href="blogs.html">Travel blogs</a>
+    </nav>
+
+    <!-- Display user info at the top right -->
+    <div class="user-info">
+        <?php
+        session_start();
+        if (isset($_SESSION['username'])) {
+            echo "Welcome, " . $_SESSION['username'] . "!";
+        } else {
+            echo "Welcome!";
+        }
+        ?>
+    </div>
+
+    <section class="section" id="holidays">
+        <h2>Holidays</h2>
+        <!-- Add holiday content here -->
+    </section>
+
+    <section class="section" id="offers">
+        <h2>Special Offers</h2>
+        <!-- Add special offers content here -->
+    </section>
+
+    <section class="section" id="travel-packages">
+        <h2>Travel Packages</h2>
+        <!-- Add travel packages content here -->
+    </section>
+
+    <section class="section" id="best-selling">
+        <h2>Best Selling Destinations</h2>
+        <!-- Add best-selling destinations content here -->
+    </section>
+
+    <section class="section" id="about-us">
+        <h2>About Us</h2>
+        <!-- Add about us content here -->
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <!-- Add contact us content here -->
+    </section>
+</body>
+
+</html>

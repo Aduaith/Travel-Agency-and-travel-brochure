@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations</title>
+    <style>
+    /* Style for the "Featured Destinations" heading */
+#destinations h2 {
+    font-size: 28px;
+    color: #3498db; /* Blue color for the heading */
+    background-color: #f2f2f2; /* Background color for the heading */
+    padding: 10px;
+}
+
+/* Style for each individual destination */
+#destinations .destination {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+/* Style for Destination titles */
+#destinations .destination h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style for Destination descriptions */
+#destinations .destination p {
+    font-size: 16px;
+    color: #555;
+}
+</style>
+</head>
+<body>
+    <section id="destinations">
+        <h2>Featured Destinations</h2>
+        <div class="destinations">
+            <h3>Paris, France</h3>
+            <p>Explore the romantic streets of Paris and enjoy world-class cuisine.</p>
+        </div>
+        <div class="destinations">
+            <h3>Tokyo, Japan</h3>
+            <p>Experience the vibrant culture and futuristic technology of Tokyo.</p>
+        </div>
+        <!-- Add more destinations as needed -->
+    </section>
+</body>
+</html>

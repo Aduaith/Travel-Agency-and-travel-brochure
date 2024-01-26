@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Insurance</title>
+   
+</head>
+<body>
+    <header>
+        <h1>Travel Insurance</h1>
+    </header>
+
+    <section class="content">
+        <h2>Why Travel Insurance is Important</h2>
+        <p>Travel insurance is a crucial part of any trip. It provides financial protection and peace of mind in case unexpected events disrupt your travel plans. Here are some key reasons why you should consider travel insurance:</p>
+        <ul>
+            <li>Medical Coverage: Travel insurance can cover medical expenses if you get sick or injured while traveling.</li>
+            <li>Trip Cancellation: It can reimburse you if you have to cancel your trip due to unforeseen circumstances.</li>
+            <li>Baggage Protection: You'll be compensated for lost, stolen, or damaged luggage.</li>
+            <li>Emergency Assistance: Access to 24/7 assistance for emergencies such as medical evacuations.</li>
+        </ul>
+
+        <h2>Types of Travel Insurance</h2>
+        <p>There are several types of travel insurance to choose from, depending on your needs:</p>
+        <ul>
+            <li>Single Trip Insurance: Covers one specific trip.</li>
+            <li>Annual Multi-Trip Insurance: Ideal for frequent travelers, covering multiple trips within a year.</li>
+            <li>Medical-Only Insurance: Focuses on medical coverage without trip cancellation benefits.</li>
+            <li>Comprehensive Insurance: Offers a wide range of coverage, including medical, trip cancellation, and baggage protection.</li>
+        </ul>
+
+        <h2>How to Choose Travel Insurance</h2>
+        <p>When selecting travel insurance, consider the following:</p>
+        <ul>
+            <li>Your destination and the level of healthcare available there.</li>
+            <li>The activities you plan to do during your trip (e.g., adventure sports).</li>
+            <li>The value of your trip and belongings.</li>
+            <li>Your health and any pre-existing medical conditions.</li>
+        </ul>
+
+        <h2>Get a Quote</h2>
+        <p>Ready to get travel insurance? Fill out the form below to get a quote from our trusted insurance partners:</p>
+        
+        <form action="insurance_quote.php" method="post">
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" required>
+            
+            <label for="trip_date">Trip Date:</label>
+            <input type="date" id="trip_date" name="trip_date" required>
+            
+            <label for="coverage_type">Coverage Type:</label>
+            <select id="coverage_type" name="coverage_type" required>
+                <option value="single_trip">Single Trip Insurance</option>
+                <option value="annual_multi_trip">Annual Multi-Trip Insurance</option>
+                <option value="medical_only">Medical-Only Insurance</option>
+                <option value="comprehensive">Comprehensive Insurance</option>
+            </select>
+            
+            <button type="submit">Get Quote</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact us at info@travelwebsite.com</p>
+    </footer>
+</body>
+</html>

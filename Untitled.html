@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Brochure</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <style>
+        /* Add your CSS styles here */
+        /* Add a semi-transparent overlay */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        body {
+            font-family: "Arial, sans-serif";
+            font-size: 16px;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 50px;
+        }
+
+        header h1 {
+            font-size: 50px;
+            font-style: italic;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-style: italic;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .section {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 20px;
+            background-color: #fff;
+        }
+
+        .slick-slider img {
+            width: 150%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Voyage Vista</h1>
+    </header>
+    <nav>
+        <a href="destinations.html">Destinations</a>
+        <a href="hotel.html">Hotels</a>
+        <a href="flights.html">Flights</a>
+        <a href="register1.html">Register</a>
+        <a href="contact.html">Contact</a>
+        <a href="booking.html">Booking</a>
+        <a href="insurance.html">Travel Insurance</a>
+        <a href="blogs.html">Travel blogs</a>
+    </nav>
+
+    <section class="section" id="holidays">
+        <h2>Holidays</h2>
+        <div class="holidays">
+            <h3>Relaxing Beach Getaway</h3>
+            <p>Escape to the pristine beaches of Bali, Indonesia, and unwind in luxury beachfront resorts. Enjoy sun, sea, and sand at its best.</p>
+            <!-- Add a div for the image carousel with a unique ID -->
+            <div class="image-carousel">
+                <div><img src="beach.jpg" alt="Beach Image 1"></div>
+                <div><img src="beach2.jpg" alt="Beach Image 2"></div>
+                <div><img src="beach3.jpg" alt="Beach Image 3"></div>
+            </div>
+            <!-- End of the image carousel -->
+            <h3>Cultural Adventure in Italy</h3>
+            <p>Experience the rich history and culture of Italy. Visit iconic cities like Rome, Florence, and Venice, and savor authentic Italian cuisine.</p>
+            <img src="italy.jpg" alt="Italy Image" width="1500" height="1000">
+            <img src="italy2.jpg" alt="Italy Image" width="1500" height="1000">
+            <img src="italy3.jpg" alt="Italy Image" width="1300" height="1000">
+            <h3>Wildlife Safari in Africa</h3>
+            <p>Embark on a thrilling safari adventure in the heart of Africa. Witness the incredible wildlife of the savannah, including lions, elephants, and giraffes.</p>
+            <img src="africa.jpg" alt="Africa Image" width="1500" height="1000">
+            <img src="africa3.jpg" alt="Africa Image" width="1500" height="1000">
+            <img src="africa2.jpg" alt="Africa Image" width="1300" height="1000">
+        </div>
+    </section>
+
+    <section class="section" id="offers">
+        <h2>Special Offers</h2>
+        <div class="offers">
+            <h3>Early Bird Discount</h3>
+            <p>Book your next vacation early and get a 20% discount on select destinations. Don't miss this limited-time offer!</p>
+            <h3>Family Vacation Package</h3>
+            <p>Plan a family getaway with our special package. Kids stay and eat for free at our family-friendly resorts.</p>
+            <h3>Romantic Honeymoon Getaway</h3>
+            <p>Celebrate your love with a romantic honeymoon package. Enjoy special amenities and romantic dinners in exotic locations.</p>
+        </div>
+    </section>
+
+    <section class="section" id="travel-packages">
+        <h2>Travel Packages</h2>
+        <h3>European Adventure</h3>
+        <p>Discover the charm of Europe with our 14-day adventure. Explore iconic cities like Paris, Rome, and Barcelona.</p>
+        <h3>Tropical Paradise</h3>
+        <p>Escape to a tropical paradise with our 7-day package. Enjoy white sandy beaches and crystal-clear waters in the Caribbean.</p>
+        <h3>Asian Odyssey</h3>
+        <p>Embark on a cultural journey with our 10-day Asian odyssey. Visit destinations like Tokyo, Bangkok, and Bali.</p>
+        <h3>Safari Expedition</h3>
+        <p>Experience the wild side of Africa with our 12-day safari expedition. Encounter majestic wildlife in Kenya and Tanzania.</p>
+    </section>
+
+    <section class="section" id="best-selling">
+        <h2>Best Selling Destinations</h2>
+        <h3>1. Bali, Indonesia</h3>
+        <p>Experience the tropical paradise of Bali, known for its lush landscapes, beautiful beaches, and vibrant culture. Explore ancient temples, relax in luxury resorts, and savor delicious local cuisine.</p>
+    </section>
+
+    <section class="section" id="about-us">
+        <h2>About Us</h2>
+        <p>Welcome to Voyage Vista, your gateway to unforgettable travel experiences. With a passion for exploring the world and a commitment to providing exceptional journeys, we've been making travel dreams come true for over a decade.</p>
+        <p>Our team of experienced and dedicated travel experts is here to guide you on your adventures. We believe that travel is not just about visiting places; it's about creating memories, forging connections, and discovering the beauty of the world.</p>
+        <p>At Voyage Vista, we take pride in curating unique travel packages, ensuring that every detail is taken care of, from accommodation to activities. Whether you're seeking cultural immersion, relaxation on pristine beaches, or thrilling adventures, we've got you covered.</p>
+        <p>Our commitment to sustainability and responsible travel means that you can explore the world while also caring for it. We partner with local communities to ensure a positive impact on the destinations we visit.</p>
+        <p>Join us on a journey that will leave you with lifelong memories and a deeper appreciation for the diversity and wonder of our planet. We look forward to being your travel companion on your next voyage.</p>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please contact us:</p>
+        <p>Email: info@travelbrochure.com</p>
+        <p>Phone: +1 (123) 456-7890</p>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Initialize the Slick Carousel for the "image-carousel" element
+            $('.image-carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                adaptiveHeight: true,
+            });
+        });
+    </script>
+</body>
+
+</html>

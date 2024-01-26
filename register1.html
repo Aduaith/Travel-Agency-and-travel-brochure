@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Registration</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+      }
+      body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to right, #4a90e2, #63d8f4); /* Use your preferred gradient colors */
+      }
+      .container {
+        display: flex;
+        max-width: 800px;
+        width: 100%;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+      }
+      .side-info {
+        flex: 1;
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+        background: linear-gradient(to left, #4a90e2, #63d8f4); /* Same as the body background */
+      }
+      /* Update the styles for heading and paragraph in side-info */
+.side-info h1 {
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #fff; /* Change text color to white */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
+  font-family: 'Roboto', sans-serif;
+}
+
+.side-info p {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffe6e6; /* Change text color to a light shade */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add text shadow for better visibility */
+  font-family: 'Roboto', sans-serif;
+}
+
+      
+      .form-container {
+       flex: 1;
+       padding: 20px; /* Reduce padding */
+       max-width: 800px; /* Reduce max-width */
+        margin: auto; /* Center the form horizontally */
+        background: #fff; /* Set background color to white */
+        margin-right: 50px;
+}
+
+
+      
+      h2 {
+        position: relative;
+        font-size: 22px;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .form-container .input-box {
+        height: 52px;
+        margin: 18px 0;
+      }
+      form .input-box input {
+        height: 100%;
+        width: 100%;
+        outline: none;
+        padding: 0 15px;
+        font-size: 17px;
+        font-weight: 400;
+        color: #333;
+        border: 1.5px solid #C7BEBE;
+        border-bottom-width: 2.5px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+      }
+      .input-box input:focus,
+      .input-box input:valid {
+        border-color: skyblue;
+      }
+      .form-container .button input {
+        color: #fff;
+        letter-spacing: 1px;
+        border: none;
+        background: #4070f4;
+        cursor: pointer;
+      }
+      .input-box.button input:hover {
+        background: #0e4bf1;
+      }
+      form .text h3 {
+        color: #333;
+        width: 100%;
+        text-align: center;
+      }
+      form .text h3 a {
+        color: #4070f4;
+        text-decoration: none;
+      }
+      form .text h3 a:hover {
+        text-decoration: underline;
+      }
+    </style>
+</head>
+<body>
+        <!-- Side Information -->
+        <div class="side-info">
+            <h1>Voyage Vista</h1>
+            <p>Travel Agency</p>
+            <p>Your Trusted Travel Companion</p>
+        </div>
+        <!-- Registration Form -->
+        <div class="form-container">
+            <h2>Registration</h2>
+            <form action="register.php" method="post">
+                <div class="input-box">
+                    <input type="text" placeholder="Enter your name" name="username" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Enter your email" name="email" required>
+                </div>
+                <div class="input-box">
+                  <input type="password" name="password" placeholder="Create password=password1" required>
+              </div>
+              <div class="input-box">
+                  <input type="password" name="confirmPassword" placeholder="Confirm password=password2" required>  
+                </div>
+                <div class="input-box">
+                    <label for="userType">User Type:</label>
+                    <select name="userType" id="userType" required>
+                        <option value="user">User</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                </div>
+                <div class="input-box button">
+                    <input type="Submit" value="Register Now">
+                </div>
+                <div class="text">
+                    <h3>Already have an account? <a href="login.html">Login now</a></h3>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

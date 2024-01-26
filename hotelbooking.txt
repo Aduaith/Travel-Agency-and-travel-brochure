@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            font-style: italic;
+        }
+        .hotel {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+        }
+        .hotel h3 {
+            font-size: 24px;
+            color: #333;
+        }
+        .hotel p {
+            font-size: 16px;
+            color: #555;
+        }
+        .book-button {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .book-button a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background-color 0.3s;
+        }
+        .book-button a:hover {
+            background-color: #0e4bf1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hotel Booking</h1>
+    </header>
+    <section id="hotels">
+        <div class="hotel">
+            <h3>Parisian Elegance Hotel</h3>
+            <p> Paris,France 1</p>
+            <p>Hotel ID: 001</p>
+            <p>Experience the charm of Paris at our luxurious hotel.Enjoy stunning views of the Eiffel Tower and indulge in French cuisine.</p>
+            <p>Price: $100 per night</p>
+            <div class="book-button">
+                <a href="register1.html">Book Now</a>
+            </div>
+        </div>
+        <div class="hotel">
+            <h3>Zen Oasis Hotel</h3>
+            <p> Tokyo,Japan</p>
+            <p>Hotel ID: 002</p>
+            <p>Immerse yourself in the tranquility of Tokyo at Zen Oasis Hotel. Relax in traditional Japanese-style rooms and savor authentic sushi</p>
+            <p>Price: $120 per night</p>
+            <div class="book-button">
+                <a href="register1.html">Book Now</a>
+            </div>
+        </div>
+        <!-- Add more hotels as needed -->
+        <div class="hotel">
+            <h3>Manhattan Skyline Suites</h3>
+            <p> New York City, USA</p>
+            <p>Hotel ID: 003</p>
+            <p>Stay in the heart of Manhattan and admire the iconic New York City skyline from your suite. Explore famous landmarks and Broadway shows</p>
+            <p>Price: $90 per night</p>
+            <div class="book-button">
+                <a href="register1.html">Book Now</a>
+            </div>
+        </div>
+        <div class="hotel">
+            <h3>Eternal City Retreat</h3>
+            <p>Rome, Italy</p>
+            <p>Hotel ID: 004</p>
+            <p>Discover the rich history of Rome while staying at Eternal City Retreat. Our hotel is a stone's throw away from the Colosseum and Roman Forum.</p>
+            <p>Price: $110 per night</p>
+            <div class="book-button">
+                <a href="register1.html">Book Now</a>
+            </div>
+        </div>
+        <div class="hotel">
+            <h3>Thai Paradise Resort</h3>
+            <p> Bangkok, Thailand</p>
+            <p>Hotel ID: 005</p>
+            <p>Relax in the lush tropical gardens of Thai Paradise Resort. Experience Thai hospitality and savor delicious street food in the vibrant city.</p>
+            <p>Price: $130 per night</p>
+            <div class="book-button">
+                <a href="register1.html">Book Now</a>
+            </div>
+        </div>
+        <div class="hotel">
+            <h3>Sydney Harbour View Hotel</h3>
+            <p>Sydney, Australia</p>
+            <p>Hotel ID: 006</p>
+            <p>Wake up to stunning views of Sydney Harbour at our hotel. Explore the Sydney Opera House and Bondi Beach during your stay.</p>
+            <p>Price: $95 per night</p>
+            <div class="book-button">
+                
+            </div>
+        </div>
+        <div class="hotel">
+            <h3>Safari Lodge Retreat</h3>
+            <p>Cape Town, South Africa</p>
+            <p>Hotel ID: 007</p>
+            <p>Experience the thrill of a safari while staying in comfort at Safari Lodge Retreat. Witness African wildlife and enjoy breathtaking sunsets.</p>
+            <p>Price: $115 per night</p>
+            <div class="book-button">
+                <a href="register1.html">Book Now</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
